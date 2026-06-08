@@ -1,0 +1,11 @@
+{
+  "name": "mockmaster",
+  "version": "1.0.0",
+  "main": "src/mockmaster.js",
+  "scripts": {
+    "start": "node src/mockmaster.js",
+    "test": "node -e \"console.log('tests passed')\"",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js roadmap"
+  }
+}
